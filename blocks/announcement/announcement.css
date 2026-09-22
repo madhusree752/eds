@@ -1,0 +1,51 @@
+.announcement {
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 24px 32px;
+  border-radius: 12px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+}
+.announcement-title {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.announcement-message {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.announcement-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #1473e6;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.announcement-button a:hover {
+  opacity: 0.85;
+}
+
+/* Mobile */
+@media (width <= 600px) {
+  .announcement {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .announcement-title {
+    font-size: 20px;
+  }
+
+  .announcement-message {
+    font-size: 15px;
+  }
+
+  .announcement-button a {
+    width: 100%;
+    text-align: center;
+  }
+}
