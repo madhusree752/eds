@@ -1,0 +1,4 @@
+mountpoints:
+  /:
+    url: https://content.da.live/madhusree752/eds
+    type: markup

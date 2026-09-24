@@ -1,0 +1,32 @@
+.faq {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.faq-question {
+  padding: 16px 20px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+}
+
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 20px;
+}
+
+.faq-question.open::after {
+  content: '−';
+}
+
+.faq-answer {
+  padding: 16px 20px;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+
+.faq-answer[hidden] {
+  display: none;
+}
